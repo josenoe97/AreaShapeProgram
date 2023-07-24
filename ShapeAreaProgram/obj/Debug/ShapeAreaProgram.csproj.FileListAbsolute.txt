@@ -1,0 +1,8 @@
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.exe.config
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.exe
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.pdb
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.AssemblyReference.cache
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.SuggestedBindingRedirects.cache
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.CoreCompileInputs.cache
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.exe
+H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.pdb
