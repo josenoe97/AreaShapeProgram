@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Globalization;
 using ShapeAreaProgram.Entities;
 using ShapeAreaProgram.Entities.Enums;
@@ -20,6 +17,8 @@ namespace ShapeAreaProgram
 
             for (int i = 1; i <= n; i++)
             {
+                Console.WriteLine($"Shape #{i} data: ");
+
                 Console.Write("Retangle of Circle (r/c)? ");
                 char ch = char.Parse(Console.ReadLine().ToUpper());
 

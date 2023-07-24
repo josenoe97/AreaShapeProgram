@@ -1,14 +1,10 @@
-﻿
-using ShapeAreaProgram.Entities.Enums;
-using System.Collections.Generic;
+﻿using ShapeAreaProgram.Entities.Enums;
 
 namespace ShapeAreaProgram.Entities
 {
     abstract class Shape
     {
         public Color Color{ get; set; }
-
-        public Shape() { }
 
         public Shape(Color color)
         {
