@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Globalization;
 using ShapeAreaProgram.Entities;
 using ShapeAreaProgram.Entities.Enums;
+using ShapeAreaProgram.Entities.Enums.Exceptions;
 
 namespace ShapeAreaProgram
 {
@@ -23,24 +24,35 @@ namespace ShapeAreaProgram
                 Console.Write("Retangle of Circle (r/c)? ");
                 char ch = char.Parse(Console.ReadLine().ToUpper());
 
-                Console.Write("Color (Black/Blue/Red): ");
-                Color color = (Color)Enum.Parse(typeof(Color), Console.ReadLine());
+                try
+                { 
+                    Console.Write("Color (Black/Blue/Red): ");
+                    Color color = (Color)Enum.Parse(typeof(Color), Console.ReadLine());
+                
+                    if (ch == 'R')
+                    {
+                        Console.Write("Width: ");
+                        double width = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                        Console.Write("Height: ");
+                        double height = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-                if (ch == 'R')
-                {
-                    Console.Write("Width: ");
-                    double width = double.Parse(Console.ReadLine() , CultureInfo.InvariantCulture);
-                    Console.Write("Height: ");
-                    double height = double.Parse(Console.ReadLine() , CultureInfo.InvariantCulture);
+                        listShape.Add(new Rectangle(width, height, color));
+                    }
+                    else if (ch == 'C')
+                    {
+                        Console.Write("Radius: ");
+                        double radius = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-                    listShape.Add(new Rectangle(width,height,color));
+                        listShape.Add(new Circle(radius, color));
+                    }
                 }
-                else if (ch == 'C')
+                catch (DomainException ex) 
                 {
-                    Console.Write("Radius: ");
-                    double radius = double.Parse(Console.ReadLine() ,CultureInfo.InvariantCulture);
-
-                    listShape.Add(new Circle(radius, color));
+                    Console.WriteLine("Error: " + ex.Message);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"unexpected error: {ex.Message}");
                 }
             }
 

@@ -1,4 +1,5 @@
 ﻿using ShapeAreaProgram.Entities.Enums;
+using ShapeAreaProgram.Entities.Enums.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,10 @@ namespace ShapeAreaProgram.Entities
         public Rectangle(double width, double height, Color color) 
             : base(color) 
         { 
+            if(width < 0 || height < 0)
+            {
+                throw new DomainException("width and height value can't be negative");
+            }
             Width = width;
             Height = height; 
         }
