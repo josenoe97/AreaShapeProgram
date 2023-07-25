@@ -1,6 +1,4 @@
-﻿
-
-namespace ShapeAreaProgram.Entities.Enums
+﻿namespace ShapeAreaProgram.Entities.Enums
 {
     enum Color : int
     {

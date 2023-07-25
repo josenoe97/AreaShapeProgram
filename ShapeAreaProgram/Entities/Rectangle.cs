@@ -1,10 +1,13 @@
 ﻿using ShapeAreaProgram.Entities.Enums;
+<<<<<<< HEAD
 using ShapeAreaProgram.Entities.Enums.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+=======
+>>>>>>> aa3fc7e5a803346d7a0647e291278bd77bbe1d6f
 
 namespace ShapeAreaProgram.Entities
 {
@@ -12,9 +15,6 @@ namespace ShapeAreaProgram.Entities
     {
         public double Width { get; set; }
         public double Height { get; set; }
-        
-
-        public Rectangle() { }
 
         public Rectangle(double width, double height, Color color) 
             : base(color) 

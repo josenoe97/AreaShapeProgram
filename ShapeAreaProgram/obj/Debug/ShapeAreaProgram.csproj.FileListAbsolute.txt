@@ -6,3 +6,11 @@ H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgr
 H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.CoreCompileInputs.cache
 H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.exe
 H:\VisualStudio\Udemy\ShapeAreaProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.pdb
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.exe.config
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.exe
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\bin\Debug\ShapeAreaProgram.pdb
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.AssemblyReference.cache
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.SuggestedBindingRedirects.cache
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.csproj.CoreCompileInputs.cache
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.exe
+C:\Users\2022100077\Desktop\ArquivosGit\AreaShapeProgram\ShapeAreaProgram\obj\Debug\ShapeAreaProgram.pdb
